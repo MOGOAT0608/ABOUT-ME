@@ -1,0 +1,415 @@
+body {
+    margin: 0px;
+    background-color: rgb(8, 8, 8);
+}
+
+/* Entête */
+
+header {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1000;
+}
+
+header>div {
+    width: 60%;
+}
+
+#begin>div>h1>a {
+    font-family: Race Sport;
+    color: blueviolet;
+}
+
+header>nav {
+    width: 50%;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Lato;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+#start {
+    display: flex;
+    margin-top: 80px;
+}
+
+.stdev {
+    width: 50%;
+}
+
+.stimg {
+    width: 50%;
+    text-align: center;
+}
+
+header nav ul {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 5.4;
+    padding-left: 0px;
+}
+
+h1,
+h1>a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    transition: 0.3s ease;
+    padding-left: 25px;
+}
+
+h1:hover {
+    filter: drop-shadow(0 1px 1px white);
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+#tb {
+    /* margin-left: 20px; */
+    color: white;
+}
+
+#tb>#start {
+    margin-top: 79px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0%;
+}
+
+.whitetitle {
+    color: white;
+}
+
+#desp {
+    padding: 18%;
+    margin: 0%;
+    color: white;
+    font-family: Lato;
+}
+
+span {
+    color: blueviolet;
+}
+
+.blanc {
+    color: white;
+    width: 100%;
+    text-align: center;
+    /* margin-top: 30px;
+    margin-bottom: 80px; */
+}
+
+
+main {
+    margin: auto;
+    /* margin-top: 5%; */
+}
+
+form {
+    color: white;
+    text-align: center;
+
+}
+
+footer,
+footer>div>p>a {
+    color: white;
+    text-decoration: none;
+    font-family: Lato;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer>div>p {
+    text-align: justify;
+}
+
+footer>div>span {
+    font-weight: bolder;
+}
+
+a:hover {
+    color: blueviolet;
+    transition: 0.3s ease;
+}
+
+
+.glow {
+    transition: 0.3s ease;
+}
+
+.glow:hover {
+    filter: drop-shadow(0 2px 2px blueviolet);
+}
+
+i {
+    color: white;
+}
+
+ol {
+    padding: 0px;
+}
+
+ol li {
+    list-style: none;
+}
+
+table {
+    margin: auto;
+}
+
+table>tr>th {
+    font-family: Lato !important;
+    color: blueviolet !important;
+}
+
+table>tr>td {
+    font-family: consolas !important;
+}
+
+#name {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: Race Sport;
+}
+
+#com {
+    font-family: Harlow solid;
+    font-size: 30px;
+    color: white;
+}
+
+#btn1 {
+    border: solid blueviolet;
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bolder;
+    font-family: Lato, Bold;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 8px;
+    border-width: 1px;
+}
+
+#btn1:hover {
+    transition: 0.3s ease;
+    background-color: rgba(138, 43, 226, 0.2);
+}
+
+.btn2 {
+    border: solid blueviolet;
+    border-width: 1px;
+    background-color: blueviolet;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: Lato, Bold;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.btn2:hover {
+    transition: 0.3s ease;
+    background-color: rgb(231, 231, 231);
+    color: blueviolet;
+}
+
+.zone {
+    width: 50%;
+    padding: 10px;
+    border: solid blueviolet;
+    border-radius: 4px;
+    background-color: rgba(138, 43, 226, 0.2);
+    color: white;
+    font-family: Lato;
+    font-weight: bolder;
+}
+
+.zone::placeholder {
+    color: white;
+    opacity: 0.5;
+    font-family: Lato;
+    font-weight: bolder;
+}
+
+#zone2 {
+    width: 52%;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: black;
+    font-weight: bolder;
+    font-family: Lato;
+    background-color: rgb(138, 43, 226);
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#pj {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+#pj>div {
+    border: solid blueviolet;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#pj>div:hover {
+    background-color: rgba(138, 43, 226, 0.2);
+    transform: scale(1.05);
+}
+
+h4 {
+    color: blueviolet;
+    font-family: Lato;
+}
+
+h2 {
+    font-family: lato;
+    margin: 0px !important;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: blueviolet;
+}
+
+.sub {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+#dev {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+#dev>div:hover {
+    background-color: rgba(138, 43, 226, 0.2);
+    transform: scale(1.05);
+}
+
+#dev>div {
+    /* margin: auto; */
+    border: solid blueviolet;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+#dev>div>div>i {
+    font-size: 40px;
+}
+
+#dev>div>div>i:hover {
+    color: blueviolet;
+}
+
+.niv:hover {
+    color: blueviolet;
+}
+
+#dev>div>p {
+    font-family: consolas;
+    font-weight: bolder;
+}
+
+.niv {
+    color: white;
+    font-weight: 0px;
+}
+
+aside>ul {
+    padding-left: 0px;
+}
+
+#hobby>ol {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#hobby>ol>li {
+    border: solid blueviolet;
+    border-width: 1.5px;
+    border-radius: 8px;
+    padding: 10px;
+    align-items: center;
+    font-family: Lato;
+}
+
+#hobby>ol>li:hover {
+    background-color: rgba(138, 43, 226, 0.2);
+    transform: scale(1.05);
+}
+
+#hobby>ol>li>i {
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+#hobby>ol>li>i:hover {
+    color: blueviolet;
+}
+
+aside>ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+aside>ul>li {
+    border: solid blueviolet;
+    border-width: 1.5px;
+    border-radius: 8px;
+    padding: 10px;
+    align-items: center;
+    font-family: Lato;
+}
+
+aside>ul>li:hover {
+    background-color: rgba(138, 43, 226, 0.2);
+    transform: scale(1.05);
+}
+
+aside>ul>li>i {
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+aside>ul>li>i:hover {
+    color: blueviolet;
+}
+
+h3 {
+    font-family: Lato;
+}
