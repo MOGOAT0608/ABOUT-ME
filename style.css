@@ -49,6 +49,8 @@ header nav ul li a {
     display: flex;
     margin-top: 80px;
     margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .stdev {
@@ -56,7 +58,8 @@ header nav ul li a {
 }
 
 .stimg {
-    width: 40%;
+    width: 30%;
+    /* height: 40%; */
     text-align: center;
     background-color: white;
     border-radius: 20px;
@@ -90,7 +93,7 @@ h1>a {
 
 h1 {
     transition: 0.3s ease;
-    padding-left: 65px;
+    padding-left: 85px;
 }
 
 #begin>div>h1>a:hover {
@@ -116,15 +119,14 @@ ul li {
 }
 
 
-/* Partie descritive */
+/* Partie descriptive */
 
 #desp {
     position: relative;
-    padding: 10%;
+    padding: 10% 0%;
     margin: 0%;
     color: white;
     font-family: Lato;
-
 }
 
 .blanc {
@@ -207,6 +209,7 @@ ol li {
     line-height: 110px;
 
 }
+
 
 #name2 {
     position: absolute;
@@ -348,6 +351,11 @@ ol li {
     margin-bottom: 0;
 }
 
+.clair2 {
+    background-color: rgb(234, 234, 234);
+    padding: 40px;
+}
+
 .zone {
     width: 50%;
     padding: 10px;
@@ -426,35 +434,57 @@ hr {
     padding: 30px;
 }
 
-#dev>div:hover {
-    background-color: rgba(138, 43, 226, 0.2);
-    transform: scale(1.05);
-}
 
-#dev>div {
-    /* margin: auto; */
-    border: solid blueviolet;
-    border-width: 1px;
-    border-radius: 10px;
-    padding: 50px;
-}
-
-#dev>div>div>i {
+.clair2>h2 {
+    text-align: center;
+    color: rgb(19, 15, 35);
+    font-family: Nevera;
     font-size: 40px;
 }
 
-#dev>div>div>i:hover {
-    color: blueviolet;
+#dev>div {
+    background-color: rgb(236, 104, 28);
+    border-radius: 20px;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
 }
 
-.niv:hover {
-    color: blueviolet;
+#dev>div:hover {
+    /* background-color: rgb(19, 15, 35); */
+    transition: 0.3s ease;
+    transform: scale(1.05);
 }
 
-#dev>div>p {
-    font-family: consolas;
+#dev>div>div>i {
+    font-size: 70px;
+    color: rgb(75, 28, 10);
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#dev>div>.nskill>p {
+    font-family: Nevera;
     font-weight: bolder;
+    color: rgb(75, 28, 10);
+    font-size: 20px;
 }
+
+/* #dev>div>.dskill {
+    padding: 100%;
+} */
+
+#dev>div>.dskill>p {
+    background-color: rgb(219, 212, 235);
+    font-family: Nevera;
+    font-weight: bolder;
+    color: rgb(42, 37, 89);
+    font-size: 15px;
+    margin: 0;
+    border-radius: 20px;
+    padding: 20px;
+}
+
 
 .niv {
     color: white;
