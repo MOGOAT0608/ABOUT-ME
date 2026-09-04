@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    /* background-color: rgb(236, 104, 28); */
     padding: 0;
+    background-color: rgb(19, 15, 35);
 }
 
 main {
@@ -605,6 +605,7 @@ footer>div>a {
     color: white;
     font-size: 20px;
     padding: 5px;
+    font-family: Poppins;
 }
 
 
@@ -617,4 +618,14 @@ footer>div>a:hover {
     color: white;
     font-size: 14px;
     padding: 5px;
+    font-weight: bold;
+}
+
+/* Responsive */
+
+@media (max-width: 320px) {
+    header {
+        display: none;
+        width: 320px;
+    }
 }
